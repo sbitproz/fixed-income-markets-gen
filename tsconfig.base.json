@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@fixed-income-markets/core-data": ["libs/core-data/src/index.ts"],
+      "@fixed-income-markets/core-hooks": ["libs/core-hooks/src/index.ts"],
+      "@fixed-income-markets/core-state": ["libs/core-state/src/index.ts"],
+      "@fixed-income-markets/core-types": ["libs/core-types/src/index.ts"],
+      "@fixed-income-markets/core-ui": ["libs/core-ui/src/index.ts"],
+      "@fixed-income-markets/ui-login": ["libs/ui-login/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

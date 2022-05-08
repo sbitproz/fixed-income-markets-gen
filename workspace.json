@@ -1,6 +1,12 @@
 {
   "version": 2,
   "projects": {
+    "core-data": "libs/core-data",
+    "core-hooks": "libs/core-hooks",
+    "core-state": "libs/core-state",
+    "core-types": "libs/core-types",
+    "core-ui": "libs/core-ui",
+    "ui-login": "libs/ui-login",
     "web-app": "apps/web-app",
     "web-app-e2e": "apps/web-app-e2e"
   }
