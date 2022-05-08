@@ -4,14 +4,13 @@ import { BrowserRouter as Router, Link, Route, Routes, Outlet } from 'react-rout
 import { APP_ROUTES } from './routes';
 import BaseLayout from './layout/BaseLayout/BaseLayout';
 import Providers from './Providers';
+import Home from './domains/Public/Home'
 
 const Public = () => (
   <div>
     <Link to={APP_ROUTES.LOGIN}>Login</Link>
   </div>
 );
-
-const Home = () => <>Home</>;
 
 const PrivateRoute = () => <><Outlet /></>
 
